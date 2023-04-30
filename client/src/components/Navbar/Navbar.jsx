@@ -35,9 +35,9 @@ const Navbar = () => {
       
         <div className='navbar'>
             <Link to='/' className='navItem navLogo'><img src={logo} alt='logo' /></Link>
-            <Link to='/' className='navItem navButton'>About</Link>
-            <Link to='/' className='navItem navButton'>Products</Link>
-            <Link to='/' className='navItem navButton'>For Teams</Link>
+            <Link to='/About' className='navItem navButton'>About</Link>
+            <Link to='/Products' className='navItem navButton'>Products</Link>
+            <Link to='/ChitChat' className='navItem navButton'>ChitChat</Link>
             
             <form>
               <input type='text' placeholder='Search...'></input>

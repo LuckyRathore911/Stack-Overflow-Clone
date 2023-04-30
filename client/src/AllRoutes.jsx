@@ -1,6 +1,9 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
 import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Products from './pages/Products/Products'
+import ChitChat from './pages/ChitChat/ChitChat'
 import Auth from './pages/Auth/Auth'
 import Questions from './pages/Questions/Questions'
 import AskQuestion from './pages/AskQuestion/AskQuestion'
@@ -13,6 +16,9 @@ const AllRoutes=()=>{
     return (
         <Routes>
             <Route exact path='/' element={<Home/>} />
+            <Route exact path='/About' element={<About/>} />
+            <Route exact path='/Products' element={<Products/>} />
+            <Route exact path='/ChitChat' element={<ChitChat/>} />
             <Route exact path='/Auth' element={<Auth/>} />
             <Route exact path='/Questions' element={<Questions/>} />
             <Route exact path='/AskQuestion' element={<AskQuestion/>} />

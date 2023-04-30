@@ -16,7 +16,7 @@ const UserProfile = () => {
     const users = useSelector(state => state.usersReducer)
     const currentProfile = users.filter(user => user._id === id)[0]  //Profile I have selected to view
     const currentUser = useSelector(state => state.currentUserReducer)   //Profile I have logged in with
-console.log(currentProfile)
+    // console.log(currentProfile)
     const [Switch, setSwitch] = useState(false)
 
     return (
