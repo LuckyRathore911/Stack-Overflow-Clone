@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 import Auth from '../Auth/Auth'
 import ChatFeed from "./ChatFeed";
-import './ChitChat.css'
+import './Socialize.css'
 
 const ChitChat = () => {
   const currentUser = useSelector(state => state.currentUserReducer)
@@ -20,6 +20,7 @@ const ChitChat = () => {
       projectID={process.env.REACT_APP_PROJECT_ID}
       userName={currentUser.result.name}
       userSecret={currentUser.result.password}
+      email={currentUser.result.email}
       renderChatFeed={(chatAppState) => <ChatFeed {...chatAppState} />}
       onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
     />}

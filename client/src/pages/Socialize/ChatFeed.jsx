@@ -3,7 +3,7 @@ import React from "react";
 import MessageForm from "./MessageForm";
 import MyMessage from "./MyMessage";
 import OthersMessage from "./OthersMessage";
-import './ChitChat.css'
+import './Socialize.css'
 
 const ChatFeed = (props) => {                               // console.log(props)
 

@@ -37,6 +37,7 @@ export const signup = async (req, res) => {
         .catch(function (error) {
           console.log(error);
         });
+        
     const token = jwt.sign(
       { email: newUser.email, id: newUser._id },
       process.env.SECRET,

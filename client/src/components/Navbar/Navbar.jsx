@@ -37,7 +37,7 @@ const Navbar = () => {
             <Link to='/' className='navItem navLogo'><img src={logo} alt='logo' /></Link>
             <Link to='/About' className='navItem navButton'>About</Link>
             <Link to='/Products' className='navItem navButton'>Products</Link>
-            <Link to='/ChitChat' className='navItem navButton'>ChitChat</Link>
+            <Link to='/Socialize' className='navItem navButton'>Socialize</Link>
             
             <form>
               <input type='text' placeholder='Search...'></input>

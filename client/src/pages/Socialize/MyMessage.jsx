@@ -1,5 +1,5 @@
 import React from 'react';
-import './ChitChat.css'
+import './Socialize.css'
 import LikeDislike from './LikeDislike';
 
 const MyMessage = ({ message }) => {
