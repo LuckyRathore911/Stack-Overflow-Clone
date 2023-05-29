@@ -120,7 +120,7 @@
 }
 
 .message {
-  padding: 12px;
+  padding: 9px;
   font-size: 16px;
   border-radius: 6px;
   max-width: 60%;
@@ -155,7 +155,7 @@
 
 .message-form-container {
   position: absolute;
-  bottom: 0px;
+  bottom: 40px;
   width: calc(100% - 36px);
   padding: 18px;
   background-color: rgb(240, 240, 240);
@@ -205,14 +205,14 @@
 }
 
 /* FORM STYLES */
-*,
+/* *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62,5%;
-}
+} */
 
 .wrapper {
   height: 100vh;
