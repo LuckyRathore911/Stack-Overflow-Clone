@@ -1,6 +1,6 @@
 import React from 'react';
 import './Socialize.css'
-import LikeDislike from './LikeDislike';
+// import LikeDislike from './LikeDislike';
 
 const MyMessage = ({ message }) => {
   
@@ -8,7 +8,7 @@ const MyMessage = ({ message }) => {
     return (
       <div style={{float : 'right'}}>
 
-        <LikeDislike message={message} style={{float : 'right'}}/><br></br>
+        {/* <LikeDislike message={message} style={{float : 'right'}}/><br></br> */}
           <img
           src={message.attachments[0].file}
           alt="message-attachment"
@@ -26,7 +26,7 @@ const MyMessage = ({ message }) => {
   return (
     <div style={{float : 'right'}}>
 
-      <LikeDislike message={message}/><br></br>
+      {/* <LikeDislike message={message}/><br></br> */}
       <div className="message"
         style={{
           float: "right",

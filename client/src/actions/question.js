@@ -1,4 +1,3 @@
-import React from 'react'
 import * as api from '../api'
 
 export const askQuestion = (questionData, navigate) => async(dispatch) =>{

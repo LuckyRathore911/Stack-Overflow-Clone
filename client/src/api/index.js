@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://stack-overflow-clone-withmodifications.onrender.com" });
+const API = axios.create({ baseURL: "http://localhost:5000" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("Profile")) {
@@ -27,5 +27,4 @@ export const deleteAnswer = (id, answerId, noOfAnswers) =>
   API.put(`/answer/${id}`, { answerId, noOfAnswers });
 
 export const getAllUsers = () => API.get("/user/getallusers");
-export const updateProfile = (updateData) =>
-  API.put(`/user`, updateData);
+export const updateProfile = (updateData) => API.put(`/user`, updateData);
