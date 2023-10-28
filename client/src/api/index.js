@@ -27,5 +27,4 @@ export const deleteAnswer = (id, answerId, noOfAnswers) =>
   API.put(`/answer/${id}`, { answerId, noOfAnswers });
 
 export const getAllUsers = () => API.get("/user/getallusers");
-export const updateProfile = (updateData) =>
-  API.put(`/user`, updateData);
+export const updateProfile = (updateData) => API.put(`/user`, updateData);
