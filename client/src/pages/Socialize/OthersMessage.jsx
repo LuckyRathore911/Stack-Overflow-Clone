@@ -1,5 +1,5 @@
 import './Socialize.css'
-// import LikeDislike from './LikeDislike';
+import LikeDislike from './LikeDislike';
 
 const OthersMessage = ({lastMessage, message}) => {
     const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username
@@ -24,7 +24,7 @@ const OthersMessage = ({lastMessage, message}) => {
                 <video alt="message-attachment" className='message-image' style={{float : 'right'}}>
                   <source src={message.attachments[0].file} type="video/mp4"/>
                 </video><br></br>
-                {/* <LikeDislike message={message}/> */}
+                <LikeDislike message={message}/>
               </div>
             ) 
             :(<div>
@@ -32,7 +32,7 @@ const OthersMessage = ({lastMessage, message}) => {
                 <div  className='message' style={{float:'left', backgroundColor:'#CABCDC', marginLeft: isFirstMessageByUser ?'4px':'48px'}}>
                   {message.text}
                 </div><br></br>
-                {/* <LikeDislike message={message}/> */}
+                <LikeDislike message={message}/>
               </div>
             )
         }
