@@ -17,11 +17,8 @@ The app provides the following features:
 
 ![hom](https://github.com/LuckyRathore911/Stack-Overflow-Clone/assets/56335557/10c7891b-7be2-4c0f-9b13-68b5eb2642cd)
 
-### Socialize (integrated chat functionality)
-
-![soc](https://github.com/LuckyRathore911/Stack-Overflow-Clone/assets/56335557/a1cf6bc2-646f-4372-be0f-9f9a9f3914ac)
-
-Find the deployed application here: https://stack-overflow-clone-smoky.vercel.app/
+#### Deployment
+https://stack-overflow-clone-smoky.vercel.app/
 
 To run the project, follow the steps:
 
@@ -45,6 +42,6 @@ To run the project, follow the steps:
         }
     }
     ```
-- Open two different terminals one at the client and the other at the server.
+- Open two different terminals, one at the client and the other at the server.
 - Run `npm install` and then `npm start` in both terminals.
 - Open http://localhost:3000/ in the browser.
